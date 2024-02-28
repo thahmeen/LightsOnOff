@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Spartan;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 1.5em;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    /* width: 70%; */
+    background: rgb(36, 36, 77);
+    /* border: 2px solid hotpink; */
+    /* margin: 0 auto; */
+    display: grid;
+    place-items: center;
+    /* position: absolute; */
+    /* top: 30%;
+    left: 40%; */
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.add-display {
+    display: block;
+}
+
+.remove-display {
+    display: none;
+}
+
+button {
+    padding: 0.3em 1.4em;
+    /* display: flex; */
+    background: indianred;
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    outline: none;
+    cursor: pointer;
+    margin: 0em;
+
+}
+
+.inner__container {
+    width: 80vw;
+    height: 70vh;
+    /* border: 2px solid gold; */
+    display: grid;
+    place-items: center;
+}

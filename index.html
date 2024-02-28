@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner__container">
+            <h1>
+                Can you turn on the lights?
+            </h1>
+
+            <img src="./style/assets/lightsOff.gif" id="light-off" alt="lights off" class="remove-display">
+            <img src="./style/assets/lightsOn.gif"  id="light-on" alt="lights-on" class="add-display">
+
+            <button id="btn-toggle">Click here to turn on/off</button>
+        </div>
+
+
+    </div>
+</body>
+<script>
+    document.getElementById("btn-toggle").addEventListener('click', function() {
+
+        document.getElementById("light-off").classList.toggle("remove-display");
+        document.getElementById("light-off").classList.toggle("add-display");
+        document.getElementById("light-on").classList.toggle("remove-display");
+        document.getElementById("light-on").classList.toggle("add-display");
+
+    })
+</script>
+
+</html>
